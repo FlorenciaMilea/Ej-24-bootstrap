@@ -9,10 +9,11 @@ title {
 
 body {
   background-color: orange;
-  flex-direction: flex;
+
 }
 
 header{
+  height: 10vh;
   margin-bottom: 5px;
   margin-top: 5px;
 }
@@ -42,8 +43,7 @@ main{
 
 .arriba{
   display: flex;
-  height: 35vh;
-
+  height: 30vh;
   margin 0;
 }
 
@@ -51,15 +51,22 @@ main{
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 45vh;
+  height: 55vh;
   margin 5px;
 
   }
 
+.container-fluid .botonera {
+  height: 45vh;
+  margin: 5px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
 .boton {
   display: inline-flex;
   background-color: grey;
-  margin: 5px;
+  margin: 15px;
   height: 9vh;
   width: 40%;
 
@@ -67,18 +74,18 @@ main{
 
 footer {
 
-  position: absolute;
   bottom: 0;
   width: 100%;
-  height: 6vh;
+  height: 4vh;
 }
 
 
-  @media  only screen and (max-width: 400px) {
+  @media  only screen and (max-width: 500px) {
     .logo {
       background-color: white;
       width: 20vw;
-      height: 100%;
+      height: 9vh;
+      text-align: center;
       }
     .n1{
       display: none;
@@ -93,7 +100,7 @@ footer {
        width: 90%;
      }
      footer {
-       height: 13vh;
+       height: 10vh;
        width: 100%;
 
      }
